@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --Cyan:hsl(179, 62%, 43%);
+   --Bright-Yellow: hsl(71, 73%, 54%);
+   --Light-Gray:hsl(204, 43%, 93%);
+   --Grayish-Blue:hsl(218, 22%, 67%);
+   --Karla:"Karla", sans-serif;
+}
+
+html,body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: var(--Karla);
+}
+
+main{
+  min-height: 30rem;
+  padding: 1rem;
+  width: 90%;
+
+}
+html{
+  background-color: var(--Light-Gray);
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Section-1{
+  background-color:white;
+  padding: 1.5rem ;
+}
+
+.Section-1 h2{
+color: var(--Cyan);
+padding-bottom: 1rem;
+}
+
+.Section-1-p{
+  color: var(--Bright-Yellow);
+  padding-bottom: 1rem;
+}
+
+.Section-1-p-2{
+  /* max-width: 60%; */
+}
+
+.Section-2{
+  background-color: var(--Cyan);
+  padding: 1rem ;
+  color: white;
+}
+
+.Section-2 h2{
+  padding-bottom: 1rem;
+}
+
+.Section-2 h1{
+/* padding-bottom: 1rem; */
+font-size: 3rem;
+}
+.Section-3{
+  background-color:hsl(179, 47%, 60%);
+  padding: 1rem ;
+}
+
+button{
+width: 90%;
+  min-height: 3rem;
+  border-radius: 5px;
+  border: none;
+ background-color: var(--Bright-Yellow);
+}
+
+.Section-2-div-2{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Section-3-div-1{
+  color: white;
+
+}
+
+.Section-3-div-1 h2{
+  padding-bottom: 1rem;
+}
+
+.Section-3-div-1 p{
+  max-width: 70%;
+}
+
+@media(min-width:765px){
+  main{
+    /* min-height: 30rem; */
+    padding: 1rem;
+    /* width: 100%; */
+  width: 60%;
+  }
+
+.Section-2-3{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.Section-1{
+  /* max-width: 80%; */
+}
+.Section-3{
+  /* width: 40%; */
+}
+.Section-2{
+  /* width: 40%; */
+}
+}
+
+ 
