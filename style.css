@@ -25,41 +25,49 @@ html,body {
 main{
   min-height: 30rem;
   padding: 1rem;
-  width: 90%;
+  max-width: 92%;
   border-radius: 12px;
+  margin: 1.5rem 0;
 }
-html{
-  background-color: var(--Light-Gray);
-}
+
 
 body{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  background-color: var(--Light-Gray);
+  font-size: 12px;
 }
 
 .Section-1{
   background-color:white;
-  padding: 1.5rem ;
+  padding: 55px 17px ;
+  /* height: 80%; */
 }
 
 .Section-1 h2{
 color: var(--Cyan);
 padding-bottom: 1rem;
+font-weight: 700;
 }
 
 .Section-1-p{
   color: var(--Bright-Yellow);
   padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 16px;
 }
 
-
+.Section-1-p-2{
+  color: var(--Grayish-Blue);
+  line-height: 20px;
+  width: 92%;
+}
 
 .Section-2{
   background-color: var(--Cyan);
-  padding: 1rem ;
+  padding: 25px 17px ;
   color: white;
 }
 
@@ -73,7 +81,7 @@ font-size: 3rem;
 }
 .Section-3{
   background-color:hsl(179, 47%, 60%);
-  padding: 1rem ;
+  padding: 25px 17px;
 }
 
 button{
@@ -93,6 +101,10 @@ width: 90%;
   align-items: center;
 }
 
+.Section-2-div-2 p{
+  color: var(--Light-Gray);
+}
+
 .Section-3-div-1{
   color: white;
 
@@ -104,6 +116,10 @@ width: 90%;
 
 .Section-3-div-1 p{
   max-width: 60%;
+  line-height: 1.2rem;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--Light-Gray);
 }
 
 .Section-2-div-2-p{
@@ -113,17 +129,34 @@ width: 90%;
 @media(min-width:765px){
   main{
     /* min-height: 30rem; */
-    padding: 1rem;
+    padding: 2rem;
     /* width: 100%; */
-  width: 60%;
+  width: 50%;
 
   }
 
 .Section-2-3{
   display: grid;
   grid-template-columns: 50% 50%;
+
 }
 
+.Section-2{
+  padding: 30px;
+}
+
+.Section-3{
+  padding: 30px;
+}
+
+.Section-1{
+  padding: 30px;
+
+}
+.Section-3-div-1 p{
+  max-width: 75%;
+
+}
 }
 
  
