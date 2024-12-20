@@ -19,13 +19,14 @@ html,body {
   align-items: center;
   height: 100%;
   font-family: var(--Karla);
+
 }
 
 main{
   min-height: 30rem;
   padding: 1rem;
   width: 90%;
-
+  border-radius: 12px;
 }
 html{
   background-color: var(--Light-Gray);
@@ -54,9 +55,7 @@ padding-bottom: 1rem;
   padding-bottom: 1rem;
 }
 
-.Section-1-p-2{
-  /* max-width: 60%; */
-}
+
 
 .Section-2{
   background-color: var(--Cyan);
@@ -83,6 +82,9 @@ width: 90%;
   border-radius: 5px;
   border: none;
  background-color: var(--Bright-Yellow);
+ font-family: var(--Karla);
+ color: white;
+ font-weight: 700;
 }
 
 .Section-2-div-2{
@@ -101,7 +103,11 @@ width: 90%;
 }
 
 .Section-3-div-1 p{
-  max-width: 70%;
+  max-width: 60%;
+}
+
+.Section-2-div-2-p{
+  padding-bottom: 1.5rem;
 }
 
 @media(min-width:765px){
@@ -110,21 +116,14 @@ width: 90%;
     padding: 1rem;
     /* width: 100%; */
   width: 60%;
+
   }
 
 .Section-2-3{
   display: grid;
   grid-template-columns: 50% 50%;
 }
-.Section-1{
-  /* max-width: 80%; */
-}
-.Section-3{
-  /* width: 40%; */
-}
-.Section-2{
-  /* width: 40%; */
-}
+
 }
 
  
